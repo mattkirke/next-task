@@ -1,0 +1,32 @@
+{
+    "lists":[
+        {
+            "id": "1",
+            "title": "Empty Ice and discard of old fruit",
+            "body": "Empty cubed and crushed ice. Place any old fruit in the bin. If the fruit is still okay, take to celler, clingfilm and place in the disignated area.",
+            "priority": "High"
+
+        },
+        {
+            "id": "2",
+            "title": "Wipe fridges",
+            "body": "Spray the fridges and thoroughly wipe the seals, glass, handles and edges of the fridge door. Clean the bottom of the fridges if neccessery. ",
+            "priority": "High"
+
+        },
+        {
+            "id": "3",
+            "title": "",
+            "body": "Spray the fridges and thoroughly wipe the seals, glass, handles and edges of the fridge door. Clean the bottom of the fridges if neccessery. ",
+            "priority": "Low"
+
+        },
+        {
+            "id": "4",
+            "title": "Wipe fridges",
+            "body": "Spray the fridges and thoroughly wipe the seals, glass, handles and edges of the fridge door. Clean the bottom of the fridges if neccessery. ",
+            "priority": "Medium"
+
+        }
+    ]
+}

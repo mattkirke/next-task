@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/*
+.navbar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.5rem;
+  justify-content: space-between;
+  max-width: 10rem;
+}
+main {
+  @apply max-w-5xl my-12 mx-auto px-8;
+}
+
+body {
+  background: #ebf0fa;
+  @apply text-gray-500 m-8;
+}
+/* button styles */
+/*
+button {
+  @apply 
+    px-3 py-2 
+    rounded-sm 
+    flex justify-between items-center gap-2
+    text-sm;
+}
+button:hover {
+  @apply bg-opacity-90;
+}
+*/
+/* base styles */
+body {
+  background: #F4F4F4;
+  @apply text-gray-500 m-8;
+}
+h1, h2 {
+  @apply font-bold text-primary text-lg;
+}
+main {
+  @apply max-w-5xl my-12 mx-auto px-8;
+}
+main > h2 {
+  @apply mb-4 pb-2 text-base ;
+}
+p > a {
+  @apply text-primary underline;
+}
+
+/* nav styles */
+nav {
+  @apply
+    pb-4
+    border-b-2 border-gray-200
+    flex items-center gap-5 
+    my-10 mx-auto 
+    max-w-5xl;
+}
+nav a, nav span {
+  @apply text-gray-500;
+}
+nav a:hover {
+  @apply text-black;
+}
+main nav {
+  @apply border-0;
+}
+
+/* button styles */
+button {
+  @apply 
+    px-3 py-2 
+    rounded-sm 
+    flex justify-between items-center gap-2
+    text-sm;
+}
+button:hover {
+  @apply bg-opacity-90;
+}
+.btn-primary {
+  background: #3498db;
+  @apply
+  text-white
+
+}
+.btn-secondary {
+  @apply bg-gray-200 text-gray-900;
+}
+
+.card {
+  @apply 
+    bg-white 
+    shadow-sm 
+    rounded-md 
+    py-3 px-4 my-4 
+    relative 
+    overflow-hidden;
+}
+
+
+/* pill styles */
+.pill {
+  @apply 
+    py-1 px-2 mt-3
+    inline-block 
+    text-xs font-semibold;
+}
+.pill.High {
+  @apply bg-red-300 text-red-700;
+}
+.pill.Medium {
+  @apply bg-yellow-300 text-yellow-700;
+}
+.pill.Low {
+  @apply bg-blue-300 text-blue-700;
+}
