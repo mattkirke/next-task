@@ -1,5 +1,7 @@
-import React from 'react'
+import React, { Suspense } from 'react'
 import List from './List'
+import Loading from '../loading'
+import Link from 'next/link'
 
 export default function Lists(){
     return(
@@ -9,7 +11,10 @@ export default function Lists(){
                     <h2>Tasks</h2>
                 </div>
             </nav>
-            <List />
+            <Link href="/list/create"><button className="btn-add">Add Task</button></Link>
+            <Suspense fallback={<Loading />}>
+                <List />
+            </Suspense>
         </main>
     )
 }

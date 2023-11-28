@@ -10,6 +10,7 @@ export default function Navbar(){
                     src={Logo}
                     alt="Beer Logo"
                     width={65}
+                    height={"auto"}
                     quality={100}
                     placeholder='blur'
                 />
