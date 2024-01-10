@@ -2,4 +2,3 @@
 This project uses:
 - Javascript
 - Tailwind
-- 
