@@ -1,7 +1,7 @@
 import Link from "next/link"
 
 async function getList(){
-    await new Promise(resolve => setTimeout(resolve, 1000))
+    await new Promise(resolve => setTimeout(resolve, 2000))
 
     const response = await fetch('http://localhost:3001/lists',{
         next: { 

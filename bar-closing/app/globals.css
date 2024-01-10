@@ -110,7 +110,7 @@ button:hover {
 .pill {
   @apply 
     py-1 px-2 mt-3
-    inline-block 
+    inline-block
     text-xs font-semibold;
 }
 .pill.High {
@@ -146,3 +146,104 @@ form select {
 form button {
   @apply block mx-auto;
 }
+.loading-message{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.loader-wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+}
+.loader{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 8rem;
+  width:9rem;
+  margin: 0px auto;
+  -webkit-animation: bounce 1s infinite ;
+  -moz-animation: bounce 1s infinite ;
+  -o-animation: bounce 1s infinite ;
+  animation: bounce 1s infinite ;
+  border: none;
+}
+.loader2{
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  height: 8rem;
+  width: 9rem;
+  margin: 0px auto;
+  -webkit-animation: bounce 1s infinite ;
+  -moz-animation: bounce 1s infinite ;
+  -o-animation: bounce 1s infinite ;
+  animation: bounce 1s infinite ;
+  border: none;
+}
+
+@-webkit-keyframes bounce{
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+@-moz-keyframes bounce{
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+@-o-keyframes bounce{
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce{
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+/* @-webkit-keyframes bounce{
+  from{-webkit-transform:rotate(0deg);}
+  to{-webkit-transform: rotate(539deg);}
+}
+@-moz-keyframes bounce{
+  from{-moz-transform:rotate(0deg);}
+  to{-moz-transform: rotate(539deg);}
+}
+@-o-keyframes bounce{
+  from{-o-transform:rotate(0deg);}
+  to{-o-transform: rotate(539deg);}
+}
+@keyframes bounce{
+  from{transform:rotate(0deg);}
+  to{transform: rotate(539deg);}
+} */

@@ -16,7 +16,7 @@ export async function genStaticParams(){
  * @returns 
  */
 async function getList(id){
-    await new Promise(resolve => setTimeout(resolve, 1000))
+    await new Promise(resolve => setTimeout(resolve, 2000))
     const res = await fetch(`http://localhost:3001/lists/${id}`,{
         next: { 
             revalidate: 10

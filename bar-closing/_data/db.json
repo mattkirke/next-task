@@ -10,49 +10,25 @@
       "id": "2",
       "title": "Wipe fridges",
       "body": "Spray the fridges and thoroughly wipe the seals, glass, handles and edges of the fridge door. Clean the bottom of the fridges if neccessery. ",
-      "priority": "High"
-    },
-    {
-      "id": "3",
-      "title": "",
-      "body": "Spray the fridges and thoroughly wipe the seals, glass, handles and edges of the fridge door. Clean the bottom of the fridges if neccessery. ",
-      "priority": "Low"
-    },
-    {
-      "id": "4",
-      "title": "Wipe fridges",
-      "body": "Spray the fridges and thoroughly wipe the seals, glass, handles and edges of the fridge door. Clean the bottom of the fridges if neccessery. ",
       "priority": "Medium"
     },
     {
-      "title": "test",
-      "body": "test",
-      "priority": "low",
-      "id": "2Ew_RWq"
+      "id": "3",
+      "title": "Stock the fridges",
+      "body": "Restock all fridges including the soft drinks, bottled beers and wine ",
+      "priority": "Low"
     },
     {
-      "title": "new test",
-      "body": "t",
-      "priority": "high",
-      "id": "cLyzfLY"
+      "title": "Remove and clean beer nozzles",
+      "body": "Remove and place beer nozzles in water, soak for a few minutes then remove and dry. Place the nozzles back on and put nozzle covers on.",
+      "priority": "Medium",
+      "id": "VIVpN6P"
     },
     {
-      "title": "e",
-      "body": "e",
-      "priority": "high",
-      "id": "tejwHhK"
-    },
-    {
-      "title": "e",
-      "body": "e",
-      "priority": "medium",
-      "id": "GbNIA_F"
-    },
-    {
-      "title": "rwtw",
-      "body": "wtewe",
-      "priority": "medium",
-      "id": "eRxxa5U"
+      "title": "New Task",
+      "body": "Fixed Errors",
+      "priority": "High",
+      "id": "shQGqw4"
     }
   ]
 }
