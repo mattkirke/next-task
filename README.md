@@ -1,4 +1,4 @@
-Deployed Link In Progress
+Deployed Link In Progress - considering about using a cloudbased db
 
 # Bar Closing List
 This project uses:
