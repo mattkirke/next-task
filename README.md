@@ -2,7 +2,7 @@ Deployed Link In Progress - considering about using a cloudbased db
 
 # Bar Closing List
 This project uses:
-- Javascrip
+- Javascript
 - Tailwind
 
 ## In db.json
